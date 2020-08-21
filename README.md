@@ -2,4 +2,3 @@
 
 Visual studio code -> Open terminal -> npm test (to run the tests for the application)
 
-Assessment 3 
