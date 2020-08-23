@@ -24,7 +24,3 @@ test('should element be validated ', () => {
     expect(element).toBeUndefined();
 });
 
-test('should output no data  ', () => {
-    const text = generateText('', null);
-    expect(text).toBe('');
-});
