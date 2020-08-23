@@ -19,8 +19,8 @@ test('should element be validated  ', () => {
 });
 
 test('should element be validated ', () => {
-    createElement("div","name","name2");
-    const element = document.querySelector('.name2');
+    createElement("div","string1","string2");
+    const element = document.querySelector('.string2');
     expect(element).toBeUndefined();
 });
 
